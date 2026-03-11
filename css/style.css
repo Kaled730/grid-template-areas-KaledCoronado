@@ -1,0 +1,134 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+.padre{
+    background-color: seagreen;
+    display: grid;
+    grid-template-areas: "caja1 caja1 caja1"
+                        "caja2 caja3 caja4"
+                        "caja5 caja5 caja6"
+                        "caja5 caja5 caja7"
+                        "caja5 caja5 caja8"
+                        "caja9 caja10 caja11"
+                        "caja9 caja12 caja11";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.caja1{
+    background-color: greenyellow;
+    grid-area: caja1;
+}
+.caja2{
+    background-color: lightcoral;
+    grid-area: caja2;
+}
+.caja3{
+    background-color: lightblue;
+    grid-area: caja3;
+}
+.caja4{
+    background-color: lightgreen;
+    grid-area: caja4;
+}
+.caja5{
+    background-color: lightyellow;
+    grid-area: caja5;
+    position: relative;
+    height: 400px;
+}
+.caja6{
+    background-color: lightpink;
+    grid-area: caja6;
+}
+.caja7{
+    background-color: lightgray;
+    grid-area: caja7;
+}
+.caja8{
+    background-color: lightcyan;
+    grid-area: caja8;
+}
+.caja9{
+    background-color: lightseagreen;
+    grid-area: caja9;
+}
+.caja10{
+    background-color: lightsalmon;
+    grid-area: caja10;
+}
+.caja11{
+    background-color: lightsteelblue;
+    grid-area: caja11;
+}
+.caja12{
+    background-color: lightyellow;
+    grid-area: caja12;
+}
+div{
+    font-size: 20px;
+}
+.c51{
+    background-color: lightblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 280px;
+    left: 180px;
+}
+.c52{
+    background-color: lightblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 280px;
+    left: 70px;
+}
+.c53{
+    background-color: lightblue;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 180px;
+    left: 80px;
+}
+.c54{
+    background-color: lightblue;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+.ojo1{
+    width:15px;
+    height:15px;
+    background:black;
+    border-radius:50%;
+
+    position:absolute;
+    top:35px;
+    left:30px;
+}
+.ojo2{
+    width:15px;
+    height:15px;
+    background:black;
+    border-radius:50%;
+
+    position:absolute;
+    top:35px;
+    left:75px;}
+.boca{
+    width:40px;
+    height:12px;
+    background:black;
+    border-radius:20px;
+
+    position:absolute;
+    top:70px;
+    left:40px;
+}
